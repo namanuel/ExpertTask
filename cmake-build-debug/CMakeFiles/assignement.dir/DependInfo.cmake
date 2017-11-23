@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/manuel/SoftwareProgrammierung_1/src/assigment.c" "/home/manuel/SoftwareProgrammierung_1/cmake-build-debug/CMakeFiles/assignement.dir/src/assigment.c.o"
-  "/home/manuel/SoftwareProgrammierung_1/src/hashmap.c" "/home/manuel/SoftwareProgrammierung_1/cmake-build-debug/CMakeFiles/assignement.dir/src/hashmap.c.o"
-  "/home/manuel/SoftwareProgrammierung_1/src/helper.c" "/home/manuel/SoftwareProgrammierung_1/cmake-build-debug/CMakeFiles/assignement.dir/src/helper.c.o"
+  "/home/manuel/ExpertTask/src/assigment.c" "/home/manuel/ExpertTask/cmake-build-debug/CMakeFiles/assignement.dir/src/assigment.c.o"
+  "/home/manuel/ExpertTask/src/hashmap.c" "/home/manuel/ExpertTask/cmake-build-debug/CMakeFiles/assignement.dir/src/hashmap.c.o"
+  "/home/manuel/ExpertTask/src/helper.c" "/home/manuel/ExpertTask/cmake-build-debug/CMakeFiles/assignement.dir/src/helper.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

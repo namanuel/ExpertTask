@@ -19,6 +19,7 @@ void printHelp() {
 
 int main(int argc, char *argv[]) {
     FILE * fOutputfile; //INITIALISIEREN
+    //char *inputfile [FILENAMELENGTH * sizeof(char)];
     char *inputfile = malloc(FILENAMELENGTH* sizeof(char));
     char *outputfile = malloc(FILENAMELENGTH* sizeof(char)); //Magic number
     char *statisticsfile = malloc(FILENAMELENGTH* sizeof(char)); //Magic number
@@ -30,13 +31,14 @@ int main(int argc, char *argv[]) {
                 printHelp();
                 return EXIT_SUCCESS;
             case 'i':
-                inputfile = optarg;
+                snprintf(inputfile,FILENAMELENGTH * sizeof(char),"%s",optarg);
+                //inputfile = optarg;
                 break;
             case 'o':
-                outputfile = optarg;
+                snprintf(outputfile,FILENAMELENGTH * sizeof(char),"%s",optarg);
                 break;
             case 's':
-                statisticsfile = optarg;
+                snprintf(statisticsfile,FILENAMELENGTH * sizeof(char),"%s",optarg);
                 break;
             default:
                 printHelp();
@@ -89,6 +91,11 @@ int main(int argc, char *argv[]) {
 
                 fclose(fOutputfile);//close output file
                 fOutputfile = fopen(outputfile, "r");
+                if(fOutputfile == 0){
+                    printHelp();
+                    printf("ERROR COULD NOT OPEN THE FILE");
+                    return EXIT_FAILURE;
+                }
                 int wordcount = countWordsinfile(fOutputfile); //erwartet FILE *Pointer
                 statisticFileWriter(outputfile, statisticsfile, wordcount);
                 fclose(fOutputfile);

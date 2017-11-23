@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/manuel/SoftwareProgrammierung_1/src/assigment.c
+/home/manuel/ExpertTask/src/assigment.c
 stdio.h
 -
 stdlib.h
@@ -24,11 +24,11 @@ getopt.h
 math.h
 -
 helper.h
-/home/manuel/SoftwareProgrammierung_1/src/helper.h
+/home/manuel/ExpertTask/src/helper.h
 
-/home/manuel/SoftwareProgrammierung_1/src/hashmap.c
+/home/manuel/ExpertTask/src/hashmap.c
 hashmap.h
-/home/manuel/SoftwareProgrammierung_1/src/hashmap.h
+/home/manuel/ExpertTask/src/hashmap.h
 stdlib.h
 -
 stdio.h
@@ -36,13 +36,13 @@ stdio.h
 string.h
 -
 
-/home/manuel/SoftwareProgrammierung_1/src/hashmap.h
+/home/manuel/ExpertTask/src/hashmap.h
 
-/home/manuel/SoftwareProgrammierung_1/src/helper.c
+/home/manuel/ExpertTask/src/helper.c
 helper.h
-/home/manuel/SoftwareProgrammierung_1/src/helper.h
+/home/manuel/ExpertTask/src/helper.h
 hashmap.h
-/home/manuel/SoftwareProgrammierung_1/src/hashmap.h
+/home/manuel/ExpertTask/src/hashmap.h
 stdint.h
 -
 string.h
@@ -52,7 +52,7 @@ stdlib.h
 assert.h
 -
 
-/home/manuel/SoftwareProgrammierung_1/src/helper.h
+/home/manuel/ExpertTask/src/helper.h
 stdio.h
 -
 stdint.h
